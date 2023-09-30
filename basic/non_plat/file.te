@@ -652,3 +652,9 @@ type proc_dmaheap, fs_type, proc_type;
 # Date: 2021/12/24
 # Purpose: add new label for /proc/mgq
 type proc_mgq, fs_type, proc_type;
+
+# Latency
+type latency_device, dev_type;
+
+# PPS
+type pps_socket, file_type;

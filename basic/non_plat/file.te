@@ -658,3 +658,9 @@ type latency_device, dev_type;
 
 # PPS
 type pps_socket, file_type;
+
+# Cpufreq
+type sysfs_mtk_cpufreq, fs_type, sysfs_type;
+
+# Gpufreq
+type sysfs_mtk_gpufreq, fs_type, sysfs_type;
